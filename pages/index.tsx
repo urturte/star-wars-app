@@ -24,7 +24,6 @@ export async function getServerSideProps() {
   }
 }
 
-
 export default function Home(props: any) {
   const [films, setFilms] = useState<any>(props.films);
   return (
