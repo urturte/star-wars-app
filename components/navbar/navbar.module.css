@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  padding: 50px;
+  background: black;
+  gap: 3em;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.logo img {
+  height: 50px;
+}
+.content a {
+  text-decoration: none;
+  color: #FFE919;
+  padding: 6px 20px;
+  border-radius: 10px;
+  font-weight: 400;
+}
+.content a:hover {
+  color: black;
+  background-color: rgb(187, 187, 212);
+  cursor: pointer;
+  transition: 0.3s;
+}
+@media only screen and (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80px;
+    gap: 1em;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+  .content a {
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-weight: 100;
+  }
+}

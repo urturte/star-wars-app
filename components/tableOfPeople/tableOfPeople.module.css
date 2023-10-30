@@ -1,0 +1,21 @@
+.table{
+  background-color: black;
+  color: #FFE919;
+  border: solid black 2px;
+  max-width: 100%;
+  border-collapse: collapse; 
+  }
+.table th,
+.table td {
+  border: 1px solid #FFE919;
+  padding: 1em;
+  text-align: left;
+}
+.table th {
+  font-weight: 900;
+}
+@media only screen and (max-width: 425px) {
+  .table {
+    font-size: 10px;
+  }
+}

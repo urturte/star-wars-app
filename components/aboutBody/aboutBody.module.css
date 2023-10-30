@@ -1,0 +1,14 @@
+.main {
+  background: #FFE919;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 5em;
+  /* align-items: center; */
+}
+.title {
+  color: white;
+  text-align: center;
+  margin: 25px 0;
+}

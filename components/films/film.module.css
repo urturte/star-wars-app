@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  min-height: 140px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 12em;
+  padding: 1em;
+}
+.main:hover {
+  background-color: rgb(187, 187, 212);
+}
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.episodeNo {
+  display: flex;
+  justify-content: center;
+  height: 25px;
+  min-width: 25px;
+  background-color: #FFE919;
+  color: black !important;
+  font-size: large;
+}
